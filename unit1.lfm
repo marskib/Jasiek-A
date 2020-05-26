@@ -10,7 +10,7 @@ object Form1: TForm1
   object b41: TButton
     Left = 58
     Height = 25
-    Top = 74
+    Top = 110
     Width = 75
     Caption = '4.1'
     OnClick = b41Click
@@ -28,7 +28,7 @@ object Form1: TForm1
   object LminLuka: TLabel
     Left = 58
     Height = 15
-    Top = 112
+    Top = 148
     Width = 46
     Caption = 'minLuka'
     ParentColor = False
@@ -36,7 +36,7 @@ object Form1: TForm1
   object LmaxLuka: TLabel
     Left = 58
     Height = 15
-    Top = 144
+    Top = 180
     Width = 48
     Caption = 'maxLuka'
     ParentColor = False
@@ -44,7 +44,7 @@ object Form1: TForm1
   object B42: TButton
     Left = 240
     Height = 25
-    Top = 74
+    Top = 110
     Width = 75
     Caption = '4.2'
     OnClick = B42Click
@@ -53,7 +53,7 @@ object Form1: TForm1
   object Label1: TLabel
     Left = 240
     Height = 15
-    Top = 112
+    Top = 148
     Width = 34
     Caption = 'Label1'
     ParentColor = False
@@ -61,7 +61,7 @@ object Form1: TForm1
   object Button1: TButton
     Left = 480
     Height = 25
-    Top = 84
+    Top = 120
     Width = 75
     Caption = 'Button1'
     OnClick = Button1Click
@@ -70,12 +70,28 @@ object Form1: TForm1
   object Label2: TLabel
     Left = 480
     Height = 21
-    Top = 120
+    Top = 156
     Width = 50
     Caption = 'Label2'
     Font.CharSet = EASTEUROPE_CHARSET
     Font.Color = clBlack
     Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object LPlik: TLabel
+    Left = 56
+    Height = 17
+    Top = 64
+    Width = 23
+    Caption = 'Plik'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
     Font.Name = 'Segoe UI'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft

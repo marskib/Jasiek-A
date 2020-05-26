@@ -18,6 +18,7 @@ type
     BWczytaj: TButton;
     Label1: TLabel;
     Label2: TLabel;
+    LPlik: TLabel;
     LminLuka: TLabel;
     LmaxLuka: TLabel;
     procedure b41Click(Sender: TObject);
@@ -60,6 +61,9 @@ begin
     i:=i+1;
   end;
   ileLiczb:=i;
+  LPlik.Caption:='';
+  for i:=0 to ileLiczb-1 do
+    LPlik.Caption:=Lplik.Caption+IntToStr(ciag[i])+'   ';
 end;
 
 function TForm1.dajLuke(i: integer): Integer;
